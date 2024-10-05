@@ -1,0 +1,49 @@
+.contact  div{
+    display:grid;    justify-content: center;    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;  color: rgb(212,87,4); 
+}
+.contact a {
+    display:inline-flex;  justify-content: center;  color:green;
+}
+a{
+    text-decoration: underline;
+}
+h1,h2{
+    color: rgb(212,87,4); display:flex; justify-content: center; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2:hover{
+    text-decoration: underline; cursor: pointer;
+}
+h1:hover{
+    text-decoration: underline; cursor: pointer;
+}
+.daytime{
+    display: flex;   justify-content:center;    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url("\src\assets\sign.jpg");   background-repeat: no-repeat;   background-size: cover;
+    color: rgb(212,87,4);  margin:0px;
+}
+table{  background-color:white; width:500px;
+  border:1px solid orangered;  padding:20px;  margin: 20px; border-collapse: collapse;
+} 
+td{
+    border:1px solid orangered;  color:rgb(2, 49, 53) ; border-collapse:collapse; padding:20px; 
+}
+.apply {
+    width:100%;    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1.1em; height:800px;    background-image:url("src/assets/computer.jpg");  background-repeat: no-repeat;   background-size: cover; margin-top: 10px;
+}
+.apply form{  
+    display:grid;  justify-content: center;  width:500px;  margin-top: 50px;;  font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1.1em;     
+    
+}
+form input{
+    width:400px; padding:8px;   
+}
+label{
+    color:white; margin-top:10px;
+}
+h3{
+    margin:0px 0px 0px 180px; padding-top:30px; color:white; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1.1em; 
+}
+.apply button{
+    width:150px; padding:7px; margin:20px 140px; 
+} 

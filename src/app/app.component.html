@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="">
+</head>
+<body> 
+ <h1>Responsive Food Order Website !</h1>
+ <header>
+    <nav class="navbar">
+        <div class="logo">
+        <img src="assets/LOGO.jpg" alt="">
+        <h1>Tasty Hub Point..</h1>
+        </div>
+   <ul class="nav-link">
+        <li><a href=""  [routerLink]="['food']"> Food</a></li>
+        <li><a href=""  [routerLink]="['about']"> About</a></li>
+        <li><a href=""  [routerLink]="['contact']"> Contact</a></li>
+        <li><a href=""  [routerLink]="['cartlist']"> Cartlist</a></li>
+        <li><a href=""  [routerLink]="['signin']"> Sign-In</a></li>
+        <li><a href=""  [routerLink]="['signout']" (click)="signOut()"> Sign-Out</a></li>
+   </ul>        
+   </nav>
+</header>
+</body>
+</html>
+<router-outlet></router-outlet>

@@ -1,0 +1,105 @@
+
+    <div class="container"> 
+        <h1>CONTACT US</h1>
+        <div class="contact">
+           <div> 
+        <p>We'd love to hear from you. </p>
+        <a href="#Informationpage">Visit through the link</a>
+        </div>
+        <div>
+            <p>For press inquiries:</p>
+             <a href="#Queriespage">Any queries</a>
+        </div>
+        
+        <div>
+            <p>For wholesale inquiries: </p>
+            <a href="#Wholesalepageenquries">Whole sale</a>
+        </div>
+        
+        <div>
+            <p>Apply to work with us:</p>
+            <a (click)="scrollToApply()">Apply Now</a>
+        </div>
+        
+        <div>
+        <p>
+        <b>Address: </b> Flourist Milling Inc. 865 East Hastings,Velachery,  Chennai
+        </p>
+        </div>
+        <div >
+        <p><b>Contact us by phone:</b>  Customer Support: 6369659262,  Commercial Street: 04142-2121.
+        </p>
+        </div>
+        <div >
+            <p><b>Locations:</b> Flourist Commercial Street  3433 Commercial Street, Chennai
+        </p>
+        </div>
+        </div>
+    
+        <h2> TIMINGS</h2>
+        <div class="daytime">
+            
+        <table>
+            <tr class="heading">
+                <td><b>DAYS</b></td>
+                <td><b>TIMINGS </b></td>
+            </tr>
+        <tr>
+            <td>MONDAY</td>
+            <td>8AM - 6PM</td>
+        </tr>
+        <tr>
+            <td>TUESDAY </td>
+            <td>8AM - 6PM</td>
+        </tr>
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>8AM - 6PM</td>
+        </tr>
+        <tr>
+            <td>THURSDAY</td>
+            <td>8AM - 6PM</td>
+        </tr>
+        <tr>
+            <td>FRIDAY</td>
+            <td>8AM - 6PM</td>
+        </tr>
+        <tr>
+            <td>SATURDAY</td>
+            <td>8AM - 6PM</td>
+        </tr>
+        <tr>
+            <td>SUNDAY</td>
+            <td>12PM - 11PM</td>
+        </tr>
+        </table>
+        </div>
+       
+<div id='applynow' #applynow  class="apply">
+  
+            <h3>Apply Here</h3>
+    <form #form="ngForm"  (ngSubmit)="get()">
+    
+        <label for="user">Name*</label>
+        <input type="text" name="user"  placeholder="Enter your name" required ngModel/>
+    
+        <label for="">Email Id*</label> 
+        <input type="email" name="email"  placeholder="Enter your Email" required ngModel/>
+    
+        <label for="num">Phone No*</label>
+        <input type="number" name="num"  placeholder="Enter your name" required ngModel/>
+    
+        <label for="coll">College*</label>
+        <input type="text" name="coll"  placeholder="Enter your name" required ngModel/>
+    
+        <label for="dept">Department*</label>
+        <input type="text" name="dept"  placeholder="Enter your name" required ngModel/>
+                   
+        <label for="cgpa">CGPA*</label>
+        <input type="number" name="cgpa"  placeholder="Enter your name" required ngModel/>
+    
+        <button  (ngSubmit)="get()"  type="submit"> Apply Now</button>
+     </form>
+    
+</div>
+</div>

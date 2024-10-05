@@ -1,0 +1,199 @@
+<p><b>Food Works!</b></p>
+
+<h1>What's On Your Mind ?</h1>
+
+<div class="food-images">
+
+    <a href="#" >  <img src="../assets/chappathi.jpg"> <div class="div1">Offer upto 20%</div></a>
+    <a href="#" >  <img src="../assets/chicken.jpg"> <div class="div1">Offer upto 19%</div></a>
+    <a href="#" >  <img src="../assets/coffee.jpg"><div class="div1">Offer upto 24%</div></a>
+    <a href="#" >  <img src="../assets/egg.jpg"><div class="div1">Offer upto 23%</div></a>
+    <a href="#" >  <img src="../assets/Eral.jpg"><div class="div1">Offer upto 33%</div></a>
+    <a href="#" >  <img src="../assets/fingerchips.jpg"><div class="div1">Offer upto 50%</div></a>
+    <a href="#" >  <img src="../assets/Fish.jpg"><div class="div1">Offer upto 10%</div></a>
+    <a href="#" >  <img src="../assets/fishfrie.jpg"><div class="div1">Offer upto 25%</div></a>
+    <a href="#" >  <img src="../assets/food.jpg"><div class="div1">Offer upto 40%</div></a>
+    <a href="#" >  <img src="../assets/gravynan.jpg"><div class="div1">Offer upto 22%</div></a>
+    <a href="#" >  <img src="../assets/nanfried.jpg"> <div class="div1">Offer upto 24%</div></a>
+    <a href="#" >  <img src="\assets\wheatthosai.jpg"> <div class="div1">Offer upto 24%</div></a>
+    </div>
+    
+<div class="container">
+    <div class="container1">      
+        <div class="top">
+            <img src="/assets/pexels-chanwalrus-958545.jpg" id="image">
+            <ul>
+              <li id="name">Nan Biriyani && Gravy</li>
+              <li id="price">PRICE : 199rs</li>
+              <li id="quality">Quality : GOOD</li>
+            </ul>
+            <button><b>CLICK TO ORDER</b></button>
+            <button (click)="addToCart({name: 'Nan Biriyani && Gravy', price: 199, quality: 'GOOD', image:
+             '/assets/pexels-chanwalrus-958545.jpg'})">
+              <b>ADD TO CART</b>
+            </button>
+          </div>
+    
+
+    <div class="top"> 
+        <img src="/assets/food.jpg" id="image">  
+        <ul>
+        <li id="name">Chicken Thanduri</li>
+        <li id="price">PRICE : 135rs</li>
+        <li id="quality"> Quality:GOOD</li>
+    </ul>
+        <button><b>CLICK TO ORDER</b></button>
+        <button (click)="addToCart({name: 'Chicken Thanduri', price: 135, quality: 'GOOD', image:
+        '/assets/food.jpg'})">
+         <b>ADD TO CART</b>
+       </button>     
+    </div>
+     <div class="top"> 
+        <img src="/assets/pexels-kylarose-954677.jpg" id="image"> 
+        <ul>
+            <li id="name">Variety Gravy with Hot</li>
+            <li id="price">PRICE : 220rs</li>
+            <li id="quality"> Quality:GOOD</li>
+        </ul>
+        <button><b> CLICK TO ORDER</b></button>
+        <button (click)="addToCart({name: 'Variety Gravy', price: 220, quality: 'GOOD', image:
+        '/assets/pexels-kylarose-954677.jpg'})">
+         <b>ADD TO CART</b>
+       </button>    
+    </div>
+    
+    <div class="top"> 
+        <img src="../assets/nanfried.jpg" id="image"> 
+        <ul>
+         <li id="name">Fried Nan </li>
+         <li id="price"> PRICE : 149rs</li>
+         <li id="quality"> Quality:GOOD</li>
+     </ul>
+        <button><b>CLICK TO ORDER</b></button>
+        <button (click)="addToCart({name: 'Fried Nan', price: 149, quality: 'GOOD', image:
+        '../assets/nanfried.jpg'})">
+         <b>ADD TO CART</b>
+       </button>    
+    </div>
+    </div>
+
+    
+     <div class="container2">       
+    
+     <div class="bottom"> 
+               <img src="/assets/pexels-minan1398-1482803.jpg"> 
+               <ul>
+                <li>Fired Chicken </li>
+                <li>PRICE : 100rs</li>
+                <li> Quality:GOOD</li>
+            </ul>
+               <button><b>CLICK TO ORDER</b></button>
+               <button (click)="addToCart({name: 'Fried Chicken ', price: 100, quality: 'GOOD', image:
+               '/assets/pexels-minan1398-1482803.jpg'})">
+                <b>ADD TO CART</b>
+              </button>    
+                        </div>
+
+     <div class="bottom"> 
+        <img src="/assets/Fish.jpg"> 
+        <ul>
+         <li>Fish Frie </li>
+         <li>PRICE : 155 rs</li>
+         <li> Quality:GOOD</li>
+     </ul>
+        <button><b>CLICK TO ORDER</b></button>
+        <button (click)="addToCart({name: 'Fish Frie ', price: 155, quality: 'GOOD', image:
+        '/assets/Fish.jpg'})">
+         <b>ADD TO CART</b>
+       </button>        
+      </div>
+
+        <div class="bottom"> 
+            <img src="/assets/Eral.jpg"> 
+            <ul>
+             <li>Eral Frie </li>
+             <li>PRICE : 160 rs</li>
+             <li> Quality:GOOD</li>
+         </ul>
+            <button><b>CLICK TO ORDER</b></button>
+            <button (click)="addToCart({name: 'Eral Frie', price: 160, quality: 'GOOD', image:
+            '/assets/Eral.jpg'})">
+             <b>ADD TO CART</b>
+           </button>                
+            </div>
+
+            <div class="bottom"> 
+                <img src="../assets/egg.jpg"> 
+                <ul>
+                 <li>Boiled Egg  </li>
+                 <li>PRICE : 59 rs</li>
+                 <li> Quality:GOOD</li>
+             </ul>
+                <button><b>CLICK TO ORDER</b></button>
+                <button (click)="addToCart({name: 'Boiled Egg ', price: 59, quality: 'GOOD', image:
+                '../assets/egg.jpg'})">
+                 <b>ADD TO CART</b>
+               </button>                  
+              </div>
+
+    </div>
+    <!-- Second conatiner 2 same as container 2 as well  -->
+    <div class="container2">
+      <div class="bottom"> 
+        <img src="\assets\ricegurma.jpg"> 
+        <ul>
+         <li>Rice Gurma </li>
+         <li>PRICE : 149rs</li>
+         <li> Quality:GOOD</li>
+     </ul>
+        <button><b>CLICK TO ORDER</b></button>
+        <button (click)="addToCart({name: 'Fried Chicken ', price: 100, quality: 'GOOD', image:
+        '/assets/pexels-minan1398-1482803.jpg'})">
+         <b>ADD TO CART</b>
+       </button>    
+                 </div>
+
+<div class="bottom"> 
+ <img src="\assets\wheatthosai.jpg"> 
+ <ul>
+  <li>Wheat Thosai </li>
+  <li>PRICE : 100 rs</li>
+  <li> Quality:GOOD</li>
+</ul>
+ <button><b>CLICK TO ORDER</b></button>
+ <button (click)="addToCart({name: 'Fish Frie ', price: 155, quality: 'GOOD', image:
+ '/assets/Fish.jpg'})">
+  <b>ADD TO CART</b>
+</button>        
+</div>
+
+ <div class="bottom"> 
+     <img src="/assets\Thosai.jpg"> 
+     <ul>
+      <li > Special Thosai </li>
+      <li>PRICE : 100 rs</li>
+      <li> Quality:GOOD</li>
+  </ul>
+     <button><b>CLICK TO ORDER</b></button>
+     <button (click)="addToCart({name: 'Eral Frie', price: 160, quality: 'GOOD', image:
+     '/assets/Eral.jpg'})">
+      <b>ADD TO CART</b>
+    </button>                
+     </div>
+
+     <div class="bottom"> 
+         <img src="\assets\nuts.jpg"> 
+         <ul>
+          <li>Special Nuts </li>
+          <li>PRICE : 59 rs</li>
+          <li> Quality:GOOD</li>
+      </ul>
+         <button><b>CLICK TO ORDER</b></button>
+         <button (click)="addToCart({name: 'Boiled Egg ', price: 59, quality: 'GOOD', image:
+         '../assets/egg.jpg'})">
+          <b>ADD TO CART</b>
+        </button>                  
+       </div>
+
+
+    </div>

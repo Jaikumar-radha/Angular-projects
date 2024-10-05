@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In Page</title>
+</head>
+<body>
+   
+    <form #form="ngForm" (ngSubmit)="submit(form)">
+
+        <h2>Sign-In Form</h2>
+        <div>
+            
+            <label for="user"> Username</label>
+            <input type="text" name="user" id="user" placeholder="Enter username"  required ngModel/>
+            <div></div>
+
+            <label for="email"> Email</label>
+            <input type="email" name="email"  id="email" placeholder="Enter Email "  required ngModel/>
+            <div></div>
+
+            <label for="pass"> Password</label> 
+            <input type="password" name="pass" id="pass" placeholder="Enter Password"  required ngModel/>
+            <div></div>
+
+            <label for="phone"> Username</label>
+            <input type="number" name="phone"  id="phone" placeholder="Enter Phone number"  required ngModel/>
+            <div></div>
+            
+            <button type="submit" > Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>

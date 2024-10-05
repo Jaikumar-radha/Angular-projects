@@ -1,0 +1,82 @@
+h1{
+    display:flex;  justify-content: center;   color:orange; text-shadow: 1px 1px 1px orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.food-images img{
+   width:150px;   height:150px;  padding:10px;   border-radius: 20px;
+}
+.food-images {
+    display:flex; overflow: auto;  white-space: nowrap;  width:80%; margin-left: 10%;
+}
+.food-images::-webkit-scrollbar{
+    display:none;
+}
+.food-images a{
+    position:relative;  text-align: center;
+}
+.div1{
+        position:absolute; bottom:12%; left:10%; color:white; font-family:cursive; font-size:17px;
+      }
+
+       /* FIRST DIV SCROLL BAR OVER  FOR OFFERS DISPLAY IN BOTTOM OF THE IMAGES  */
+  
+.container1 {
+        display: flex;  flex-direction: row;     padding-left:50px; margin:20px 0px;
+       }
+
+.top img{
+        width:240px;  height:240px; border-radius: 10px; margin-left:10px;
+  
+       }
+.top { 
+        flex:1;   order:1;  
+       }
+.container2 {
+        display: flex; flex-direction: row;     padding-left:40px; margin-bottom: 20px;
+       }
+
+.bottom img{ 
+        width:240px;  height:240px;   border-radius: 10px; margin-left:10px;
+       }
+.bottom{
+        order:1;   flex:1;  
+       }
+@media(max-width:1000px)
+{         
+  .container1{                                        
+          display:grid;  justify-content: center;
+        }
+  .top img{
+          width:300px;  height:300px; 
+        }
+ .bottom img{
+          width:300px;
+          height:300px;
+        }
+.container2{
+          display:grid;   justify-content: center;
+        }
+        
+       }
+      
+.top li{
+        list-style-type:none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:18px;
+        padding:5px;  color: rgb(255, 166, 0);  text-shadow: 1px 1px 1px orangered;
+       }
+ 
+.bottom li{
+        list-style-type:none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:18px;
+        padding:5px;  color: rgb(255, 166, 0);  text-shadow: 1px 1px 1px orangered;
+       }
+button{
+        padding:8px; margin:4px;  display:inline; color:orangered;  background-color: white;
+        border-color: orange;
+       }
+/* .bottom button{
+        padding:8px; margin:4px;  display:inline;   color:orangered; background-color: white;
+        border-color: orange;
+       } */
+button:hover
+       {
+        cursor:pointer; color:white; background-color: orange;
+       }

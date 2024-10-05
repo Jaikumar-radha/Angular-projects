@@ -1,0 +1,41 @@
+form{
+     background-color: rgb(228, 162, 77); 
+    color:white;
+    width:500px;
+    height:100% vh;
+  background-image:url("\src\assets\sign.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+div{
+    display:grid;
+    justify-content: center;
+    padding:20px;
+}
+div input{ 
+ padding:10px;
+ margin: 5px 0px;
+ border-color:rgb(228, 162, 77);
+ width:300px;
+}
+button{
+    width:150px;
+    height:40px;
+    font-size: 20px;
+    color:rgb(228, 162, 77);
+    background-color: white;
+    border-color:rgb(228, 162, 77);
+   margin-left: 100px;
+   margin-top: 20px;
+}

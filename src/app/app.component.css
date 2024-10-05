@@ -1,0 +1,91 @@
+
+h1{
+  display:flex;
+  justify-content: center;
+  color:white;
+  /* Text hide and display coding  started */
+  background: linear-gradient(90deg, white,white,white);
+  background-clip:text;
+  -webkit-text-fill-color: rgba(228, 29, 9, 0);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation:anime 5s infinite linear;
+  animation-duration:6s;
+
+
+}
+@keyframes anime{
+  0%{
+      background-position:-600%;
+  }
+  100%{
+      background-position:600%;
+  }
+}
+/* Hide and display text coding ended */
+img{
+  width:150px;
+  height:150px;
+  margin: 10px;
+}
+body{
+  background-color: rgb(228, 162, 77);
+  width: 100%;
+  margin:0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+  color:white;
+  
+}
+.navbar{
+    display:flex;
+     justify-content: space-between;
+        text-align: center;
+      }
+.logo {
+  display: flex;
+}
+.logo h1{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.nav-link{
+  list-style-type:none;
+  display: flex;
+  
+}
+.nav-link li{
+  display: inline;
+  margin-right: 10px;
+}
+.nav-link a{
+  display: inline-block;
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  padding:5px;
+  width:90px;
+}
+.nav-link a:hover{
+  background-color: rgb(235, 142, 22);
+  text-decoration:white underline;
+}
+
+@media (max-width:1000px){
+   .nav-link{
+    position: relative;
+    flex-direction:column;    
+    margin-right: 100px;
+    
+   }
+    .nav-link li{
+      display: block;
+    }
+    .nav-link a{
+      width:100%;
+    }
+
+  }
