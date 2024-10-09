@@ -57,11 +57,11 @@ h2:hover{
     order:1;
 }
 @media (max-width:1000px){
-    .container1{
+    .about{
         display:grid;   justify-content: center;   margin-left:10px;
     }
-    .container1 i{
-          margin-right:10px;
+    .about i{
+          margin-right:40px;
     }
    
 }

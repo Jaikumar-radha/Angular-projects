@@ -1,1 +1,9 @@
 <p>cartlist works!</p>
+
+<div *ngFor="let item of cartItems">
+
+    <img [src]="item.image" alt="{{item.name}}">
+    <p>{{item.name}}</p>
+    <p>{{item.price}}</p>
+    <p>{{item.quality}}</p>
+ </div>
